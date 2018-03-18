@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: url("../images/crystal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px 0 5px 5px;
+    height: 100%;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+#wrapper {}
+
+#heading {
+    background-color: brown;
+    font-size: 40px;
+    padding: 25px 10px;
+    text-align: left;
+    width: auto;
+}
+
+#instructions {
+    background-color: antiquewhite;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#randomNumber {
+    background-color: lightgreen;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 5px;
+}
+
+#scoreboard {
+    background-color: aquamarine;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+
+.crystals img {
+    width: 100%;
+    border: none;
+}
+
+.crystals button {
+    background-color: transparent;
+    border-style: inset;
+}
+
+#totalScore,
+#crystalTotal {
+    background-color: green
+}
+
+#crystalTotal {
+    padding-bottom: 40px;
+    font-size: 40px;
+}

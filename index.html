@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <title>Crystals Collector</title>
+
+</head>
+
+<body>
+    <div class="container-fluid" id="wrapper">
+
+        <div class="row">
+            <div class="col-sm-4" id="heading">
+                Crystals Collector!
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-5" id="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
+                    total score.</p>
+                <P>You win the game by your total score to a random number. You lose the game if your total score goes above
+                    the the random number</P>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of the crystals.</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-2" id="randomNumber">
+                <p>
+                    <span id="randomNumber">0</span>
+                </p>
+            </div>
+
+            <div class="col-sm-1" id="scoreboard">
+                <p>
+                    <span id="message"></span>
+                </p>
+                <p>Wins:
+                    <span id="wins">0</span>
+                </p>
+                <p>Losses:
+                    <span id="losses">0</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1 crystals">
+                <button>
+                    <img src="../assets/images/crystal1.png">
+                </button>
+            </div>
+            <div class="col-sm-1 crystals">
+                <button>
+                    <img src="../assets/images/crystal2.png">
+                </button>
+            </div>
+            <div class="col-sm-1 crystals">
+                <button>
+                    <img src="../assets/images/crystal3.png">
+                </button>
+            </div>
+            <div class="col-sm-1 crystals">
+                <button>
+                    <img src="../assets/images/crystal4.png">
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2" id="totalScore">
+                Your total score is:
+                <span id="totalSum">0</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2" id="crystalTotal">
+                <p><span id="crystalSum">0</span></p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
