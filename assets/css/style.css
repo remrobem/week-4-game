@@ -44,6 +44,10 @@ body {
     margin-right: 5px;
 }
 
+#message {
+    visibility: hidden;
+}
+
 .crystals img {
     width: 100%;
 }
@@ -67,6 +71,13 @@ body {
 #crystalTotal {
     padding-bottom: 40px;
     font-size: 40px;
+}
+
+@media only screen and (max-width: 1600px) {
+    #heading {
+        font-size: 30px;
+        padding: 25px 10px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -94,3 +105,4 @@ body {
     .crystals img {
         /* width: 75%; */
     }
+}

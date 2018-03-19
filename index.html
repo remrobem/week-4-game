@@ -21,15 +21,14 @@
     <div class="container-fluid" id="wrapper">
 
         <div class="row">
-            <div class="col-sm-4" id="heading">
+            <div class="col-xl-3 col-lg-5 col-md-7 col-sm-8 col-12" id="heading">
                 Crystals Collector!
             </div>
 
         </div>
 
-
         <div class="row">
-            <div class="col-md-6 col-sm-11" id="instructions">
+            <div class="col-md-7 col-sm-8 col-12" id="instructions">
                 <p>You will be given a random number at the start of the game.</p>
                 <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
                     total score.</p>
@@ -40,8 +39,6 @@
             </div>
         </div>
 
-
-
         <div class="row">
             <div class="col-sm-2 col-4" id="randomNumber">
                 <p>
@@ -51,7 +48,8 @@
 
             <div class="col-sm-2 col-4" id="scoreboard">
                 <p>
-                    <span id="message"></span>
+<!-- message is set to visibilty:hidden to start the game.                     -->
+                    <span id="message">placeholder</span>
                 </p>
                 <p>Wins:
                     <span id="wins">0</span>
@@ -64,24 +62,24 @@
         </div>
 
         <div class="row col-xl-6 col-lg-9 col-md-12 col-sm-12">
-            
+
             <div class="crystals">
-                <button id="button1">
+                <button class="button" data-value="0">
                     <img src="assets/images/crystal1.png">
                 </button>
             </div>
             <div class=" crystals">
-                <button id="button2">
+                <button class="button" data-value="1">
                     <img src="assets/images/crystal2.png">
                 </button>
             </div>
             <div class="crystals">
-                <button id="button3">
+                <button class="button" data-value="2">
                     <img src="assets/images/crystal3.png">
                 </button>
             </div>
             <div class="crystals">
-                <button id="button4">
+                <button class="button" data-value="3">
                     <img src="assets/images/crystal4.png">
                 </button>
             </div>
